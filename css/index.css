@@ -245,3 +245,65 @@ nav a{
 .about-lets{
     margin: 0 12%;
 }
+
+/*Products*/
+ 
+.Products{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightcyan;
+    flex-wrap: wrap;
+}
+
+
+.Products div{
+    margin: 5%;
+    width: 250px;
+}
+.Products .Webdev{
+  background-color: lightsteelblue;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+.Products .Android{
+  background-color: linen;
+  padding: 1%;
+  border-radius: 5%;
+
+
+}
+.Products .IOS{
+    background-color: paleturquoise;
+    padding: 1%;
+    border-radius: 5%;
+
+
+}
+.Products .Data{
+    background-color: rgb(172, 163, 182);
+    padding: 1%;
+    border-radius: 5%;
+
+
+}
+
+.Products div:hover {
+    background-color: rgb(53, 127, 170);
+  }
+
+  .contactcontent{
+      display: flex;
+      justify-content: space-evenly;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(168, 154, 143);
+      border-radius: 1%;
+  }
+  .contactcontent div{
+        background-color: sandybrown;
+        margin: 5%;
+        width: 500px;
+        padding: 1%;
+        border-radius: 5%;
+    }
